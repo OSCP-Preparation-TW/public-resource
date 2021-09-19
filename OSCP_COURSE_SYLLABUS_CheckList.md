@@ -182,6 +182,7 @@ OSCP COURSE SYLLABUS CheckList
 
 
 WHAT COMPETENCIES WILL YOU GAIN?
+---
 - [ ]Using information gathering techniques to identify and enumerate targets running various operating systems and services
 - [ ]Writing basic scripts and tools to aid in the penetration testing process
 - [ ]Analyzing, correcting, modifying, cross-compiling, and porting public exploit code
