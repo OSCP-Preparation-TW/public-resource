@@ -1,0 +1,204 @@
+OSCP COURSE SYLLABUS CheckList
+
+- [ ]Penetration Testing: What You Should Know
+	- [ ]官方文件
+	- [ ]VPN Labs
+- [ ]Getting Comfortable with Kali Linux
+	- [ ]kali 文件
+	- [ ]熟悉unix like環境
+	- [ ]管理kali linux service
+	- [ ]apt套件管理
+- [ ]Command Line Fun
+	- [ ]熟悉Bash環境
+	- [ ]Piping and Redirection
+	- [ ]字串搜尋與操作(grep,sed,cut...)
+	- [ ]使用cmd操作檔案(vi,nano...)
+	- [ ]Comparing Files
+	- [ ]Managing Processes(bg,fg,kill)
+	- [ ]File and Command Monitoring (tail,watch)
+	- [ ]Downloading Files(wget,curl,azel)
+	- [ ]Customizing the Bash Environment
+- [ ]Practical Tools
+	- [ ]netcat
+	- [ ]socat
+	- [ ]PowerShell and Powercat
+	- [ ]Wireshark
+	- [ ]Tcpdump
+- [ ]Bash Scripting
+- [ ]Passive Information Gathering(考試用不到)
+	- [ ]Taking Notes
+	- [ ]Website Recon
+	- [ ]Whois Enumeration
+	- [ ]Google Hacking
+	- [ ]Netcraft
+	- [ ]Recon-ng
+	- [ ]Open-Source Code
+	- [ ]Shodan(cencys / fofa )
+	- [ ]Security Headers Scanner
+	- [ ]SSL Server Test
+	- [ ]Pastebin
+	- [ ]User Information Gathering
+		- [ ]Email Harvesting
+		- [ ]Password Dumps
+	- [ ]Social Media Tools
+		- [ ]Site-Specific Tools
+	- [ ]Stack Overflow
+	- [ ]Information Gathering Frameworks
+		- [ ]OSINT Framework
+		- [ ]Maltego
+- [ ]Active Information Gathering
+	- [ ]DNS Enumeration
+	- [ ]Port Scannin
+	- [ ]SMB Enumeration
+	- [ ]NFS Enumeration
+	- [ ]SMTP Enumeration
+	- [ ]SNMP Enumeration
+- [ ]Vulnerability Scanning
+	- [ ]Vulnerability Scanning Overview and Conside
+	- [ ]Vulnerability Scanning with Ness
+	- [ ]Vulnerability Scanning with Nmap
+- [ ]Web Application Attacks
+	- [ ]Web Application Assessment Methodology
+	- [ ]Web Application Enumeration (wappalyzer)
+	- [ ]Web Application Assessment Tools
+		- [ ]DIRB
+		- [ ]Burp Suite
+		- [ ]Nikto
+	- [ ]Exploiting Web-based Vulnerabilities
+		- [ ]Exploiting Admin Consoles
+		- [ ]Cross-Site Scripting (XSS)
+		- [ ]Directory Traversal Vulnerabilities
+		- [ ]File Inclusion Vulnerabilities
+		- [ ]SQL Injection
+- [ ]Introduction to Buffer Overflows
+	- [ ]Introduction to the x Architecture
+	- [ ]Buffer Overflow Walkthrough
+- [ ]Windows Buffer Overflows
+	- [ ]Discovering the Vulnerability
+	- [ ]Win Buffer Overflow Exploitation
+
+- [ ]Linux Buffer Overflows
+	- [ ]About DEP, ASLR, and Canaries
+	- [ ]Replicating the Crash
+	- [ ]Controlling EIP
+	- [ ]Locating Space for Our Shellcode
+	- [ ]Checking for Bad Characters
+	- [ ]Finding a Return Address
+	- [ ]Getting a Shell
+- [ ]Client-Side Attacks
+	- [ ]Know Your Target
+		- [ ]Passive Client Information Gathering
+		- [ ]Active Client Information Gathering
+		- [ ]Leveraging HTML Applications
+		- [ ]Exploring HTML Applications
+		- [ ]HTA Attack in Action
+	- [ ]Exploiting Microsoft Office
+		- [ ]Microsoft Word Macro
+		- [ ]Object Linking and Embedding
+		- [ ]Evading Protected View		
+- [ ]Locating Public Exploits
+	- [ ]A Word of Caution
+	- [ ]Searching for Exploits
+		- [ ][] Online Exploit Resources
+		- [ ]Offline Exploit Resources
+- [ ]Fixing Exploits
+	- [ ]Fixing Memory Corruption Exploits
+		- [ ]Overview and Considerations
+		- [ ]Importing and Examining the Exploit
+		- [ ]Cross-Compiling Exploit Code
+		- [ ]Changing the Socket Information
+		- [ ]Changing the Return Address
+		- [ ]Changing the Payload
+		- [ ]Changing the Overflow Buffer
+	- [ ]Fixing Web Exploits
+		- [ ]Considerations and Overview
+		- [ ]Selecting the Vulnerability
+		- [ ]Changing Connectivity Information
+		- [ ]Troubleshooting the “index out of range” Error
+- [ ]File Transfers
+	Considerations and Preparations
+	- [ ]The Non-Interactive Shell
+	- [ ]Transferring Files with Windows Hosts
+		- [ ]Non-Interactive FTP Download
+		- [ ]Windows Downloads Using Scripting Languages
+		- [ ]Windows Downloads with exe2hex and PowerShell
+		- [ ]Windows Uploads Using Windows Scripting Languages
+		- [ ]Uploading Files with TFTP
+- [ ]Antivirus Evasion
+	- [ ]Methods of Detecting Malicious Code
+		- [ ]Signature-Based Detection
+		- [ ]Heuristic and Behavioral-Based Detection
+	- [ ]Bypassing Antivirus Detection
+		- [ ]On-Disk Evasion
+		- [ ]In-Memory Evasion
+		- [ ]AV Evasion: Practical Example	
+- [ ]Privilege Escalation
+	- [ ]Information Gathering
+		- [ ]Manual Enumeration
+		- [ ]Automated Enumeration
+	- [ ]Windows Privilege Escalation Examples
+		- [ ]Understanding Windows Privileges and Integrity Levels
+		- [ ]Introduction to User Account Control (UAC)
+		- [ ]User Account Control (UAC) Bypass: fodhelper.exe Case Study
+		- [ ]Insecure File Permissions: Serviio Case Study
+		- [ ]Leveraging Unquoted Service Paths
+		- [ ]Windows Kernel Vulnerabilities: USBPcap Case Study
+	- [ ]Linux Privilege Escalation Examples
+		- [ ]Understanding Linux Privileges
+		- [ ]Insecure File Permissions: Cron Case Study
+		- [ ]Insecure File Permissions: /etc/passwd Case Study
+		- [ ]Kernel Vulnerabilities: CVE-7-2 Case Study
+- [ ]Password Attacks
+	- [ ]Wordlists
+		- [ ]Standard Wordlists
+		- [ ]Brute Force Wordlists
+	- [ ]Common Network Service Attack Methods
+		- [ ]HTTP htaccess Attack with Medusa
+		- [ ]Remote Desktop Protocol Attack with Crowbar
+		- [ ]SSH Attack with THC-Hydra
+		- [ ]HTTP POST Attack with THC-Hydra
+	- [ ]Leveraging Password Hashes
+		- [ ]Retrieving Password Hashes
+		- [ ]Passing the Hash in Windows
+		- [ ]Password Cracking
+- [ ]Port Redirection and Tunneling
+	- [ ]Port Forwarding
+		- [ ]RINETD
+	- [ ]SSH Tunneling
+		- [ ]SSH Local Port Forwarding
+		- [ ]SSH Remote Port Forwarding
+		- [ ]SSH Dynamic Port Forwarding
+		- [ ]PLINK.exe
+		- [ ]NETSH
+		- [ ]HTTPTunnel-ing Through Deep Packet Inspection
+- [ ]Active Directory Attacks(TBD)	
+- [ ]The Metasploit Framework(TBD)
+- [ ]PowerShell Empire
+	- [ ]Installation, Setup, and Usage
+	- [ ]PowerShell Modules
+	- [ ]Switching Between Empire and Metasploit
+- [ ]Assembling the Pieces: Penetration Test Breakdown(All)
+- [ ]Trying Harder: The Labs (extend)
+
+
+WHAT COMPETENCIES WILL YOU GAIN?
+- [ ]Using information gathering techniques to identify and enumerate targets running various operating systems and services
+- [ ]Writing basic scripts and tools to aid in the penetration testing process
+- [ ]Analyzing, correcting, modifying, cross-compiling, and porting public exploit code
+- [ ]Conducting remote, local privilege escalation, and client-side attacks
+- [ ]Identifying and exploiting XSS, SQL injection, and file - [ ]- [ ]inclusion vulnerabilities in web applications
+- [ ]Leveraging tunneling techniques to pivot between networks
+- [ ]Creative problem solving and lateral thinking skills
+ 
+
+
+
+refrence:
+---
+[COURSE SYLLABUS](
+https://www.offensive-security.com/documentation/penetration-testing-with-kali.pdf)
+[我們與 OSCP 的距離
+](
+https://tech-blog.cymetrics.io/posts/crystal/oscp-review/
+)
+
