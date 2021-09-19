@@ -1,31 +1,3 @@
-介紹 PWK(PEN-200)：包含課程、環境、報告、考試規範等等
-基礎
-Kali 教學：怎麼安裝跟使用 kali linux，還有 command line 教學
-工具介紹：netcat, powershell, wireshark 等等常用工具
-寫簡單的 bash script
-資料收集：
-Passive recon: google hacking, email password dump...
-Active recon （各種服務的資訊收集）
-port scanning
-DNS, SMB, NFS, SMTP, SNMP 等等的枚舉技巧
-Vulnerability scanning
-網頁攻擊：
-手動勘查、工具使用
-XSS, Directory traversal, File inclusion, SQL injection...
-Buffer Overflow (Windows + Linux)：最簡單的那種，連 NX 都沒開，return address + shellcode 結束這一回合
-Client-Side Attacks: HTA, Microsoft Word...（惡意軟體實作入門 XDD）
-尋找、修改、編譯、使用 public exploit
-file transfer 的技巧
-避開防毒軟體
-提權（Privilege Escalation）
-爆密碼
-port forwarding 跟 tunneling 的小技巧
-Active Directory (AD)
-Metasploit 跟 Powershell Empire 教學
-完整滲透測試的一次 walkthrough
-
-
-
 <H2>[課程指南](
 https://help.offensive-security.com/hc/en-us/articles/4406327703444-Course-start-guide)
 
@@ -67,7 +39,7 @@ https://help.offensive-security.com/hc/en-us/articles/360040574491-What-is-expec
 			- Failure to provide the local.txt and proof.txt file contents in both the control panel and in a screenshot
 
 
-###其他注意事項或考試Q&A(我覺得比較重要的)
+### 其他注意事項或考試Q&A(我覺得比較重要的)
 
 - 如果網路斷線會發生什麼事情？
 	- [vpn會短暫斷線，重連即可，若斷線太長時間會需要重新加入session，如果無法重連請發送請求](https://help.offensive-security.com/hc/en-us/articles/360040161972-What-happens-if-I-get-disconnected-from-the-proctoring-software-)
